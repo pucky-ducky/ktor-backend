@@ -1,0 +1,564 @@
+GET http://127.0.0.1:8080/order/2020-04-06-01/total
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-21T150017-2.200.json
+
+###
+
+GET http://127.0.0.1:8080/order/2020-04-06-01
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-21T150017-1.200.json
+
+###
+
+GET http://127.0.0.1:8080/order
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-21T150017.200.json
+
+###
+
+DELETE http://127.0.0.1:8080/customer/500
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-21T145942-1.404.txt
+
+###
+
+DELETE http://127.0.0.1:8080/customer/100
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-21T145942.202.txt
+
+###
+
+GET http://127.0.0.1:8080/customer/500
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-21T145942.404.txt
+
+###
+
+GET http://127.0.0.1:8080/customer/200
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-21T145942-1.200.json
+
+###
+
+GET http://127.0.0.1:8080/customer
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-21T145942.200.json
+
+###
+
+POST http://127.0.0.1:8080/customer
+Content-Type: application/json
+Content-Length: 100
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "300",
+  "firstName": "Mary",
+  "lastName": "Smith",
+  "email": "mary.smith@company.com"
+}
+
+<> 2023-03-21T145942-2.201.txt
+
+###
+
+POST http://127.0.0.1:8080/customer
+Content-Type: application/json
+Content-Length: 100
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "200",
+  "firstName": "John",
+  "lastName": "Smith",
+  "email": "john.smith@company.com"
+}
+
+<> 2023-03-21T145942-1.201.txt
+
+###
+
+POST http://127.0.0.1:8080/customer
+Content-Type: application/json
+Content-Length: 100
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "100",
+  "firstName": "Jane",
+  "lastName": "Smith",
+  "email": "jane.smith@company.com"
+}
+
+<> 2023-03-21T145942.201.txt
+
+###
+
+GET http://127.0.0.1:8080/order/2020-04-06-01/total
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-21T145936-2.200.json
+
+###
+
+GET http://127.0.0.1:8080/order/2020-04-06-01
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-21T145936-1.200.json
+
+###
+
+GET http://127.0.0.1:8080/order
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-21T145936.200.json
+
+###
+
+DELETE http://127.0.0.1:8080/customer/500
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-21T145929-1.404.txt
+
+###
+
+DELETE http://127.0.0.1:8080/customer/100
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-21T145929.202.txt
+
+###
+
+GET http://127.0.0.1:8080/customer/500
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-21T145929.404.txt
+
+###
+
+GET http://127.0.0.1:8080/customer/200
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-21T145929-1.200.json
+
+###
+
+GET http://127.0.0.1:8080/customer
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-21T145929.200.json
+
+###
+
+POST http://127.0.0.1:8080/customer
+Content-Type: application/json
+Content-Length: 100
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "300",
+  "firstName": "Mary",
+  "lastName": "Smith",
+  "email": "mary.smith@company.com"
+}
+
+<> 2023-03-21T145929-2.201.txt
+
+###
+
+POST http://127.0.0.1:8080/customer
+Content-Type: application/json
+Content-Length: 100
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "200",
+  "firstName": "John",
+  "lastName": "Smith",
+  "email": "john.smith@company.com"
+}
+
+<> 2023-03-21T145929-1.201.txt
+
+###
+
+POST http://127.0.0.1:8080/customer
+Content-Type: application/json
+Content-Length: 100
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "100",
+  "firstName": "Jane",
+  "lastName": "Smith",
+  "email": "jane.smith@company.com"
+}
+
+<> 2023-03-21T145929.201.txt
+
+###
+
+DELETE http://127.0.0.1:8080/customer/500
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-21T020837-1.404.txt
+
+###
+
+DELETE http://127.0.0.1:8080/customer/100
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-21T020837.202.txt
+
+###
+
+GET http://127.0.0.1:8080/customer/500
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-21T020837.404.txt
+
+###
+
+GET http://127.0.0.1:8080/customer/200
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-21T020837-1.200.json
+
+###
+
+GET http://127.0.0.1:8080/customer
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-21T020837.200.json
+
+###
+
+POST http://127.0.0.1:8080/customer
+Content-Type: application/json
+Content-Length: 100
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "300",
+  "firstName": "Mary",
+  "lastName": "Smith",
+  "email": "mary.smith@company.com"
+}
+
+<> 2023-03-21T020837-2.201.txt
+
+###
+
+POST http://127.0.0.1:8080/customer
+Content-Type: application/json
+Content-Length: 100
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "200",
+  "firstName": "John",
+  "lastName": "Smith",
+  "email": "john.smith@company.com"
+}
+
+<> 2023-03-21T020837-1.201.txt
+
+###
+
+POST http://127.0.0.1:8080/customer
+Content-Type: application/json
+Content-Length: 100
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "100",
+  "firstName": "Jane",
+  "lastName": "Smith",
+  "email": "jane.smith@company.com"
+}
+
+<> 2023-03-21T020837.201.txt
+
+###
+
+POST http://127.0.0.1:8080/customer
+Content-Type: application/json
+Content-Length: 100
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "300",
+  "firstName": "Mary",
+  "lastName": "Smith",
+  "email": "mary.smith@company.com"
+}
+
+<> 2023-03-21T002117.201.txt
+
+###
+
+GET http://127.0.0.1:8080/order/2020-04-06-01/total
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-20T213719-1.200.json
+
+###
+
+GET http://127.0.0.1:8080/order/2020-04-06-01
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-20T213719.200.json
+
+###
+
+GET http://127.0.0.1:8080/order
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-20T213718.200.json
+
+###
+
+GET http://127.0.0.1:8080/order/2020-04-06-01/total
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-20T213555-2.200.json
+
+###
+
+GET http://127.0.0.1:8080/order/2020-04-06-01
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-20T213555-1.200.json
+
+###
+
+GET http://127.0.0.1:8080/order
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-20T213555.200.json
+
+###
+
+DELETE http://127.0.0.1:8080/customer/500
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-20T213525-1.404.txt
+
+###
+
+DELETE http://127.0.0.1:8080/customer/100
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-20T213525.202.txt
+
+###
+
+GET http://127.0.0.1:8080/customer/500
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-20T213525.404.txt
+
+###
+
+GET http://127.0.0.1:8080/customer/200
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-20T213525-1.200.json
+
+###
+
+GET http://127.0.0.1:8080/customer
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-03-20T213525.200.json
+
+###
+
+POST http://127.0.0.1:8080/customer
+Content-Type: application/json
+Content-Length: 100
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "300",
+  "firstName": "Mary",
+  "lastName": "Smith",
+  "email": "mary.smith@company.com"
+}
+
+<> 2023-03-20T213525-2.201.txt
+
+###
+
+POST http://127.0.0.1:8080/customer
+Content-Type: application/json
+Content-Length: 100
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "200",
+  "firstName": "John",
+  "lastName": "Smith",
+  "email": "john.smith@company.com"
+}
+
+<> 2023-03-20T213525-1.201.txt
+
+###
+
+POST http://127.0.0.1:8080/customer
+Content-Type: application/json
+Content-Length: 100
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "100",
+  "firstName": "Jane",
+  "lastName": "Smith",
+  "email": "jane.smith@company.com"
+}
+
+<> 2023-03-20T213525.201.txt
+
+###
+
+POST http://127.0.0.1:8080/customer
+Content-Type: application/json
+Content-Length: 100
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": "100",
+  "firstName": "Jane",
+  "lastName": "Smith",
+  "email": "jane.smith@company.com"
+}
+
+<> 2023-03-20T213514.201.txt
+
+###
+

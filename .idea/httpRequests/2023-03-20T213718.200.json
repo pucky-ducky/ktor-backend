@@ -1,0 +1,52 @@
+[
+  {
+    "number": "2020-04-06-01",
+    "contents": [
+      {
+        "item": "Ham Sandwich",
+        "amount": 2,
+        "price": 5.5
+      },
+      {
+        "item": "Water",
+        "amount": 1,
+        "price": 1.5
+      },
+      {
+        "item": "Beer",
+        "amount": 3,
+        "price": 2.3
+      },
+      {
+        "item": "Cheesecake",
+        "amount": 1,
+        "price": 3.75
+      }
+    ]
+  },
+  {
+    "number": "2020-04-03-01",
+    "contents": [
+      {
+        "item": "Cheeseburger",
+        "amount": 1,
+        "price": 8.5
+      },
+      {
+        "item": "Water",
+        "amount": 2,
+        "price": 1.5
+      },
+      {
+        "item": "Coke",
+        "amount": 2,
+        "price": 1.76
+      },
+      {
+        "item": "Ice Cream",
+        "amount": 1,
+        "price": 2.35
+      }
+    ]
+  }
+]
